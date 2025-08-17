@@ -1,0 +1,4 @@
+#ex_08_17.py
+#s.n
+
+print('Hello World')

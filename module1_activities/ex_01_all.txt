@@ -1,0 +1,42 @@
+#ex_01_all
+#s.n
+
+
+# Chapter 1 testing
+
+#This is grabbing input from use to determine file name
+# name = input('Enter file:')
+# handle = open(name, 'r')
+
+# defining variable then a for loop to count how many words
+#counts = dict()
+#for line in handle:
+    #words = line.split()
+    #for word in words:
+        #counts[word] = counts.get(word, 0) + 1
+
+#bigcount = None
+#bigword = None
+#for word, count in counts.items():
+    #if bigcount is None or count > bigcount:
+        #bigcount = count
+        #bigword = word
+
+year = input('Enter year:')
+
+print(year)
+
+print('I’m gonna make him an offer he can’t refuse.')
+print('“I’ll be back.”')
+
+# Chapter 1 Exercises
+# Exercise Answers 1-10
+# Q1 = C
+# Q2: A program is a set of instructions written in language that tells the computer what to do
+# Q3: A Complier translates an entire program into machine code before it runs. An interpreter translates and runs code as you go
+# Q4 = A
+# Q5: The print is misspelled. it should be "print" not "primt" and it requires parenthesis
+# Q6 = B
+# Q7 = B
+# Q8 CPU would be the brain, RAM would be short term memory as Secondary Memory would be Long-term Memory.The input device would be the senses and the output device would be speaking or moving around.
+
