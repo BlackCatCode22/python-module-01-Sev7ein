@@ -1,0 +1,82 @@
+#ex_03_all
+#s.n
+
+# Exercise 1
+#hoursWorked = input('Enter Hours: ')
+#payRate = input('Enter Rate: ')
+
+#try:
+    # convert inputs
+    #h = float(hoursWorked)
+    #p = float(payRate)
+
+    # fun condition check
+    #if h <= 4:
+        #print('You Barely worked today')
+    #else:
+        #print('Good Job')
+
+    # pay calculation with overtime
+    #if h > 40:
+        # normal 40 hours pay + overtime pay
+        #w = (40 * p) + ((h - 40) * p * 1.5)
+    #else:
+        # regular pay
+        #w = h * p
+
+    #print("Pay:", w)
+
+#except (ValueError, NameError):
+    #print('Please enter required numbers')
+
+#finally:
+    #print('scope ended')
+
+#Exercise 2
+
+# wage calculator / e
+hoursWorked = input('Enter Hours Worked: ')
+payRate = input('Enter Payment Rate: ')
+
+# code that needs to be run goes in try
+try:
+    # wage calculator with graceful exit.
+    h = float(hoursWorked)
+    p = float(payRate)
+
+    # if/else condition just for fun
+    if h <= 4:
+        print('You Barely worked today')
+    else:
+        print('Good Job')
+
+    # calculation
+    w = float((h * p))
+    print(w)
+
+    # if any errors occur from these two selected, the code runs without leaving a traceback
+except (ValueError, NameError):
+    print('Please enter required numbers')
+
+    # no matter good or bad code is ran, the "finally" will run no matter what
+finally:
+    print('scope ended')
+
+# Exercise 3
+score = input('Enter Score (0.0 - 1.0): ')
+try:
+    s = float(score)
+    if s > 1.0 or s < 0.0:
+        print('Score not valid')
+    elif s >= 0.9:
+        print('A')
+    elif s >= 0.8:
+        print('B')
+    elif s >= 0.7:
+        print('C')
+    elif s >= 0.6:
+        print('D')
+    else:
+        print('F')
+except (ValueError, NameError):
+    print('Please enter required numbers')

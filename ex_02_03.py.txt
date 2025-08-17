@@ -1,0 +1,14 @@
+#ex_02_03
+#s.n
+
+ Exercise 1
+hoursWorked = 35
+payRate = 2.75
+
+pay = hoursWorked * payRate
+print(f'Pay is: {pay}')
+
+xh = input("Enter Hours: ")
+xr = input("Enter Rate: ")
+xp = float(xh) * float(xr)
+print("Pay:",xp)
